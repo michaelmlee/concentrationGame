@@ -1,0 +1,19 @@
+html {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+.btn {
+  font-size: 1em;
+  background-color: #1e3869;
+  color: #fff;
+  padding: 12px 36px;
+  border-radius: 0px;
+  margin-bottom: 12px;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #23527c;
+}

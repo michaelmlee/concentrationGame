@@ -1,0 +1,38 @@
+.playing-field {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition: transform 0.4s;
+}
+.playing-field p {
+  flex: 0 7.5%;
+}
+.playing-field p img {
+  width: 92%;
+}
+.display-none {
+  display: none;
+}
+.hidden {
+  visibility: hidden;
+}
+#back {
+  backface-visibility: hidden;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transition: all 2s ease-in-out;
+}
+#front {
+  display: none;
+  transform-style: preserve-3d;
+  transition: all 2s ease-in-out;
+}
+#front.flipped {
+  display: block;
+  transform-style: preserve-3d;
+  transition: all 1.5s ease-in-out 1s;
+  transform: rotateY(3600deg);
+}
+#back.flipped {
+  display: none;
+}
